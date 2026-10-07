@@ -1,0 +1,5 @@
+{
+  "iEEGCoordinateSystem": "Other",
+  "iEEGCoordinateUnits": "mm",
+  "iEEGCoordinateSystemDescription": "channels_MNI of the release: MNI coordinates of each bipolar channel (one position per contact pair), as computed by the authors (SPM-based normalisation in their pipeline). Template variant not named in the release."
+}

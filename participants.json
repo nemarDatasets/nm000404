@@ -1,0 +1,24 @@
+{
+  "source_id": {
+    "Description": "Subject tag of the release (P1-P25)"
+  },
+  "age": {
+    "Description": "Per-subject age not in the release (group: mean 34 +/- 12 years, Hammer et al. 2024)",
+    "Units": "year"
+  },
+  "sex": {
+    "Description": "Per-subject sex not in the release (group: 15 of 25 female)"
+  },
+  "group": {
+    "Description": "Participant group",
+    "Levels": {
+      "epilepsy_patient": "drug-resistant epilepsy patient in presurgical SEEG monitoring, Motol University Hospital"
+    }
+  },
+  "n_channels_released": {
+    "Description": "Number of bipolar channels in the release (DMN/DAN only)"
+  },
+  "n_trials": {
+    "Description": "Number of switch epochs"
+  }
+}

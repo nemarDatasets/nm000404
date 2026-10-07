@@ -1,0 +1,9 @@
+{
+  "network": {
+    "Description": "labels_channels of the release: Yeo-7 network assignment of the bipolar channel",
+    "Levels": {
+      "DMN": "default mode network",
+      "DAN": "dorsal attention network"
+    }
+  }
+}

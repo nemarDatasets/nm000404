@@ -1,0 +1,10 @@
+{
+  "SpatialReference": "MNI space as computed by the authors (template variant not named in the release)",
+  "network": {
+    "Description": "labels_channels of the release: Yeo-7 network assignment",
+    "Levels": {
+      "DMN": "default mode network",
+      "DAN": "dorsal attention network"
+    }
+  }
+}

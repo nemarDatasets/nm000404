@@ -1,0 +1,24 @@
+name	type	units	low_cutoff	high_cutoff	notch	sampling_frequency	network	status	status_description
+PF3-PF4	SEEG	µV	0.1	n/a	50	512.0	DMN	good	bipolar derivation (deeper contact minus its neighbour) as released
+PF4-PF5	SEEG	µV	0.1	n/a	50	512.0	DMN	good	bipolar derivation (deeper contact minus its neighbour) as released
+PF5-PF6	SEEG	µV	0.1	n/a	50	512.0	DMN	good	bipolar derivation (deeper contact minus its neighbour) as released
+PF6-PF7	SEEG	µV	0.1	n/a	50	512.0	DMN	good	bipolar derivation (deeper contact minus its neighbour) as released
+G7-G8	SEEG	µV	0.1	n/a	50	512.0	DAN	good	bipolar derivation (deeper contact minus its neighbour) as released
+G8-G9	SEEG	µV	0.1	n/a	50	512.0	DAN	good	bipolar derivation (deeper contact minus its neighbour) as released
+G9-G10	SEEG	µV	0.1	n/a	50	512.0	DAN	good	bipolar derivation (deeper contact minus its neighbour) as released
+G10-G11	SEEG	µV	0.1	n/a	50	512.0	DAN	good	bipolar derivation (deeper contact minus its neighbour) as released
+G11-G12	SEEG	µV	0.1	n/a	50	512.0	DAN	good	bipolar derivation (deeper contact minus its neighbour) as released
+I7-I8	SEEG	µV	0.1	n/a	50	512.0	DAN	good	bipolar derivation (deeper contact minus its neighbour) as released
+PF1-PF2	SEEG	µV	0.1	n/a	50	512.0	DAN	good	bipolar derivation (deeper contact minus its neighbour) as released
+PF2-PF3	SEEG	µV	0.1	n/a	50	512.0	DAN	good	bipolar derivation (deeper contact minus its neighbour) as released
+H1-H2	SEEG	µV	0.1	n/a	50	512.0	DAN	good	bipolar derivation (deeper contact minus its neighbour) as released
+H2-H3	SEEG	µV	0.1	n/a	50	512.0	DAN	good	bipolar derivation (deeper contact minus its neighbour) as released
+H3-H4	SEEG	µV	0.1	n/a	50	512.0	DAN	good	bipolar derivation (deeper contact minus its neighbour) as released
+H4-H5	SEEG	µV	0.1	n/a	50	512.0	DAN	good	bipolar derivation (deeper contact minus its neighbour) as released
+K1-K2	SEEG	µV	0.1	n/a	50	512.0	DAN	good	bipolar derivation (deeper contact minus its neighbour) as released
+K2-K3	SEEG	µV	0.1	n/a	50	512.0	DAN	good	bipolar derivation (deeper contact minus its neighbour) as released
+K3-K4	SEEG	µV	0.1	n/a	50	512.0	DAN	good	bipolar derivation (deeper contact minus its neighbour) as released
+F1-F2	SEEG	µV	0.1	n/a	50	512.0	DAN	good	bipolar derivation (deeper contact minus its neighbour) as released
+F2-F3	SEEG	µV	0.1	n/a	50	512.0	DAN	good	bipolar derivation (deeper contact minus its neighbour) as released
+F3-F4	SEEG	µV	0.1	n/a	50	512.0	DAN	good	bipolar derivation (deeper contact minus its neighbour) as released
+F4-F5	SEEG	µV	0.1	n/a	50	512.0	DAN	good	bipolar derivation (deeper contact minus its neighbour) as released

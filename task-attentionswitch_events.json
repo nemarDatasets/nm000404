@@ -1,0 +1,23 @@
+{
+  "onset": {
+    "Description": "Time of the task switch (t = 0 of the release time vector) within the concatenated epochs",
+    "Units": "s"
+  },
+  "trial_type": {
+    "Description": "labels_trials of the release",
+    "Levels": {
+      "E-I": "switch from external (visual search) to internal (memory) attention",
+      "I-E": "switch from internal to external attention"
+    }
+  },
+  "epoch": {
+    "Description": "Epoch (trial) index in the release, 1-based"
+  },
+  "epoch_onset": {
+    "Description": "Start of this epoch in the concatenated file (release time -4 s)",
+    "Units": "s"
+  },
+  "rejected_fraction": {
+    "Description": "Fraction of samples x channels of this epoch marked rejected (value 1) in D.rejected of the release; the full per-sample mask is in the original .mat under sourcedata/"
+  }
+}

@@ -1,0 +1,530 @@
+{
+  "source": "https://doi.org/10.5281/zenodo.12796062",
+  "runs": [
+    {
+      "sub": "P1",
+      "source": "trials_P1.mat",
+      "n_trials": 121,
+      "n_channels": 23,
+      "n_samples_per_epoch": 4097,
+      "fs": 512.0,
+      "trial_types": {
+        "E-I": 61,
+        "I-E": 60
+      },
+      "networks": {
+        "DAN": 19,
+        "DMN": 4
+      },
+      "rejected_fraction": 0.00428952904638864
+    },
+    {
+      "sub": "P2",
+      "source": "trials_P2.mat",
+      "n_trials": 115,
+      "n_channels": 49,
+      "n_samples_per_epoch": 4097,
+      "fs": 512.0,
+      "trial_types": {
+        "E-I": 57,
+        "I-E": 58
+      },
+      "networks": {
+        "DAN": 12,
+        "DMN": 37
+      },
+      "rejected_fraction": 0.0041849826706796735
+    },
+    {
+      "sub": "P3",
+      "source": "trials_P3.mat",
+      "n_trials": 122,
+      "n_channels": 11,
+      "n_samples_per_epoch": 4097,
+      "fs": 512.0,
+      "trial_types": {
+        "E-I": 59,
+        "I-E": 63
+      },
+      "networks": {
+        "DAN": 11
+      },
+      "rejected_fraction": 0.0028918691914806625
+    },
+    {
+      "sub": "P4",
+      "source": "trials_P4.mat",
+      "n_trials": 91,
+      "n_channels": 36,
+      "n_samples_per_epoch": 4097,
+      "fs": 512.0,
+      "trial_types": {
+        "E-I": 41,
+        "I-E": 50
+      },
+      "networks": {
+        "DAN": 1,
+        "DMN": 35
+      },
+      "rejected_fraction": 0.005352944454726246
+    },
+    {
+      "sub": "P5",
+      "source": "trials_P5.mat",
+      "n_trials": 126,
+      "n_channels": 39,
+      "n_samples_per_epoch": 4097,
+      "fs": 512.0,
+      "trial_types": {
+        "E-I": 64,
+        "I-E": 62
+      },
+      "networks": {
+        "DAN": 12,
+        "DMN": 27
+      },
+      "rejected_fraction": 0.010706236603234406
+    },
+    {
+      "sub": "P6",
+      "source": "trials_P6.mat",
+      "n_trials": 132,
+      "n_channels": 60,
+      "n_samples_per_epoch": 4097,
+      "fs": 512.0,
+      "trial_types": {
+        "E-I": 65,
+        "I-E": 67
+      },
+      "networks": {
+        "DAN": 10,
+        "DMN": 50
+      },
+      "rejected_fraction": 0.003631136850565701
+    },
+    {
+      "sub": "P7",
+      "source": "trials_P7.mat",
+      "n_trials": 136,
+      "n_channels": 51,
+      "n_samples_per_epoch": 4097,
+      "fs": 512.0,
+      "trial_types": {
+        "E-I": 67,
+        "I-E": 69
+      },
+      "networks": {
+        "DAN": 22,
+        "DMN": 29
+      },
+      "rejected_fraction": 0.012919368238328942
+    },
+    {
+      "sub": "P8",
+      "source": "trials_P8.mat",
+      "n_trials": 120,
+      "n_channels": 45,
+      "n_samples_per_epoch": 4097,
+      "fs": 512.0,
+      "trial_types": {
+        "E-I": 58,
+        "I-E": 62
+      },
+      "networks": {
+        "DAN": 23,
+        "DMN": 22
+      },
+      "rejected_fraction": 0.006349180520525407
+    },
+    {
+      "sub": "P9",
+      "source": "trials_P9.mat",
+      "n_trials": 118,
+      "n_channels": 46,
+      "n_samples_per_epoch": 4097,
+      "fs": 512.0,
+      "trial_types": {
+        "E-I": 62,
+        "I-E": 56
+      },
+      "networks": {
+        "DAN": 3,
+        "DMN": 43
+      },
+      "rejected_fraction": 0.023791425650884258
+    },
+    {
+      "sub": "P10",
+      "source": "trials_P10.mat",
+      "n_trials": 127,
+      "n_channels": 44,
+      "n_samples_per_epoch": 4097,
+      "fs": 512.0,
+      "trial_types": {
+        "E-I": 65,
+        "I-E": 62
+      },
+      "networks": {
+        "DAN": 9,
+        "DMN": 35
+      },
+      "rejected_fraction": 0.0059145971466105845
+    },
+    {
+      "sub": "P11",
+      "source": "trials_P11.mat",
+      "n_trials": 128,
+      "n_channels": 64,
+      "n_samples_per_epoch": 4097,
+      "fs": 512.0,
+      "trial_types": {
+        "E-I": 63,
+        "I-E": 65
+      },
+      "networks": {
+        "DAN": 48,
+        "DMN": 16
+      },
+      "rejected_fraction": 0.0037609991399957287
+    },
+    {
+      "sub": "P12",
+      "source": "trials_P12.mat",
+      "n_trials": 126,
+      "n_channels": 61,
+      "n_samples_per_epoch": 4097,
+      "fs": 512.0,
+      "trial_types": {
+        "E-I": 61,
+        "I-E": 65
+      },
+      "networks": {
+        "DAN": 25,
+        "DMN": 36
+      },
+      "rejected_fraction": 0.0057118963495880635
+    },
+    {
+      "sub": "P13",
+      "source": "trials_P13.mat",
+      "n_trials": 126,
+      "n_channels": 47,
+      "n_samples_per_epoch": 4097,
+      "fs": 512.0,
+      "trial_types": {
+        "E-I": 64,
+        "I-E": 62
+      },
+      "networks": {
+        "DAN": 15,
+        "DMN": 32
+      },
+      "rejected_fraction": 0.0016507824400470291
+    },
+    {
+      "sub": "P14",
+      "source": "trials_P14.mat",
+      "n_trials": 128,
+      "n_channels": 48,
+      "n_samples_per_epoch": 4097,
+      "fs": 512.0,
+      "trial_types": {
+        "E-I": 63,
+        "I-E": 65
+      },
+      "networks": {
+        "DAN": 4,
+        "DMN": 44
+      },
+      "rejected_fraction": 0.006315715958323163
+    },
+    {
+      "sub": "P15",
+      "source": "trials_P15.mat",
+      "n_trials": 119,
+      "n_channels": 63,
+      "n_samples_per_epoch": 4097,
+      "fs": 512.0,
+      "trial_types": {
+        "E-I": 54,
+        "I-E": 65
+      },
+      "networks": {
+        "DAN": 12,
+        "DMN": 51
+      },
+      "rejected_fraction": 0.0019675594588986845
+    },
+    {
+      "sub": "P16",
+      "source": "trials_P16.mat",
+      "n_trials": 128,
+      "n_channels": 30,
+      "n_samples_per_epoch": 4097,
+      "fs": 512.0,
+      "trial_types": {
+        "E-I": 63,
+        "I-E": 65
+      },
+      "networks": {
+        "DAN": 8,
+        "DMN": 22
+      },
+      "rejected_fraction": 0.013828970384834431
+    },
+    {
+      "sub": "P17",
+      "source": "trials_P17.mat",
+      "n_trials": 131,
+      "n_channels": 64,
+      "n_samples_per_epoch": 4097,
+      "fs": 512.0,
+      "trial_types": {
+        "E-I": 64,
+        "I-E": 67
+      },
+      "networks": {
+        "DAN": 3,
+        "DMN": 61
+      },
+      "rejected_fraction": 0.0018320051722820832
+    },
+    {
+      "sub": "P18",
+      "source": "trials_P18.mat",
+      "n_trials": 120,
+      "n_channels": 17,
+      "n_samples_per_epoch": 4097,
+      "fs": 512.0,
+      "trial_types": {
+        "E-I": 56,
+        "I-E": 64
+      },
+      "networks": {
+        "DAN": 11,
+        "DMN": 6
+      },
+      "rejected_fraction": 0.005703958420077819
+    },
+    {
+      "sub": "P19",
+      "source": "trials_P19.mat",
+      "n_trials": 129,
+      "n_channels": 21,
+      "n_samples_per_epoch": 4097,
+      "fs": 512.0,
+      "trial_types": {
+        "E-I": 63,
+        "I-E": 66
+      },
+      "networks": {
+        "DAN": 5,
+        "DMN": 16
+      },
+      "rejected_fraction": 0.006686234595481861
+    },
+    {
+      "sub": "P20",
+      "source": "trials_P20.mat",
+      "n_trials": 128,
+      "n_channels": 17,
+      "n_samples_per_epoch": 4097,
+      "fs": 512.0,
+      "trial_types": {
+        "E-I": 63,
+        "I-E": 65
+      },
+      "networks": {
+        "DAN": 4,
+        "DMN": 13
+      },
+      "rejected_fraction": 0.0008444126979568981
+    },
+    {
+      "sub": "P21",
+      "source": "trials_P21.mat",
+      "n_trials": 123,
+      "n_channels": 28,
+      "n_samples_per_epoch": 4097,
+      "fs": 512.0,
+      "trial_types": {
+        "E-I": 59,
+        "I-E": 64
+      },
+      "networks": {
+        "DAN": 5,
+        "DMN": 23
+      },
+      "rejected_fraction": 0.006740080912437842
+    },
+    {
+      "sub": "P22",
+      "source": "trials_P22.mat",
+      "n_trials": 124,
+      "n_channels": 26,
+      "n_samples_per_epoch": 4097,
+      "fs": 512.0,
+      "trial_types": {
+        "E-I": 61,
+        "I-E": 63
+      },
+      "networks": {
+        "DMN": 26
+      },
+      "rejected_fraction": 0.0012459943152739613
+    },
+    {
+      "sub": "P23",
+      "source": "trials_P23.mat",
+      "n_trials": 126,
+      "n_channels": 38,
+      "n_samples_per_epoch": 4097,
+      "fs": 512.0,
+      "trial_types": {
+        "E-I": 62,
+        "I-E": 64
+      },
+      "networks": {
+        "DAN": 8,
+        "DMN": 30
+      },
+      "rejected_fraction": 0.0029162280039044808
+    },
+    {
+      "sub": "P24",
+      "source": "trials_P24.mat",
+      "n_trials": 126,
+      "n_channels": 48,
+      "n_samples_per_epoch": 4097,
+      "fs": 512.0,
+      "trial_types": {
+        "E-I": 61,
+        "I-E": 65
+      },
+      "networks": {
+        "DAN": 12,
+        "DMN": 36
+      },
+      "rejected_fraction": 0.003831805889714115
+    },
+    {
+      "sub": "P25",
+      "source": "trials_P25.mat",
+      "n_trials": 131,
+      "n_channels": 62,
+      "n_samples_per_epoch": 4097,
+      "fs": 512.0,
+      "trial_types": {
+        "E-I": 64,
+        "I-E": 67
+      },
+      "networks": {
+        "DAN": 15,
+        "DMN": 47
+      },
+      "rejected_fraction": 0.0027756178853398537
+    }
+  ],
+  "sourcedata": [
+    {
+      "file": "sourcedata/zenodo-12796062/msSEI_exportTrials/trials_P1.mat",
+      "sha256": "2fa19e04cf0d5f5da23989f2c0e3dc96b07aa90b4bceddbd3da2b689b562ea7c"
+    },
+    {
+      "file": "sourcedata/zenodo-12796062/msSEI_exportTrials/trials_P2.mat",
+      "sha256": "39770a08a2e6193ab2f2b2a417ecf8be3d64cc94a4597f8f99a2df83ae31c8fc"
+    },
+    {
+      "file": "sourcedata/zenodo-12796062/msSEI_exportTrials/trials_P3.mat",
+      "sha256": "310ca09753dd49f7ac523a936f873cd3d8b1a866c77eb1e1b4081ee353b86e87"
+    },
+    {
+      "file": "sourcedata/zenodo-12796062/msSEI_exportTrials/trials_P4.mat",
+      "sha256": "d285db2e7ad21a592c40de93875fd79896c0f67a5878c8fabd86bfb5e02a8e03"
+    },
+    {
+      "file": "sourcedata/zenodo-12796062/msSEI_exportTrials/trials_P5.mat",
+      "sha256": "368c663301f262b69007dfaaffc51809fa912fdba57cc681e8debd71c3a455b5"
+    },
+    {
+      "file": "sourcedata/zenodo-12796062/msSEI_exportTrials/trials_P6.mat",
+      "sha256": "d6fca7516a920fdad841c6565a16186323b912006052ede69a12a05f9472f63d"
+    },
+    {
+      "file": "sourcedata/zenodo-12796062/msSEI_exportTrials/trials_P7.mat",
+      "sha256": "72f69440aa5e792e7b6fad5861803a3a635adc59ceb688acf48d54b941e5363d"
+    },
+    {
+      "file": "sourcedata/zenodo-12796062/msSEI_exportTrials/trials_P8.mat",
+      "sha256": "8b9c83d43b30939a6723fda86e8a99ed78b16f04741a946cdad8243851502880"
+    },
+    {
+      "file": "sourcedata/zenodo-12796062/msSEI_exportTrials/trials_P9.mat",
+      "sha256": "4075b3acf312a03856386f44414231473e642c9b2f610a07ea3b5dbe3fe8841d"
+    },
+    {
+      "file": "sourcedata/zenodo-12796062/msSEI_exportTrials/trials_P10.mat",
+      "sha256": "6d82233340676c4bbed0d9313e4fa729fad33b05c3414904c6d7a9875f837300"
+    },
+    {
+      "file": "sourcedata/zenodo-12796062/msSEI_exportTrials/trials_P11.mat",
+      "sha256": "c9f7b4b537cff5cce90c8f948c3e4f6575044d0efe29eb3664b590cd3930ed2e"
+    },
+    {
+      "file": "sourcedata/zenodo-12796062/msSEI_exportTrials/trials_P12.mat",
+      "sha256": "5ecec58b58730ac1eada9fb3c1d361e0ce0f776d4f8d4f83cccc36414fbdb910"
+    },
+    {
+      "file": "sourcedata/zenodo-12796062/msSEI_exportTrials/trials_P13.mat",
+      "sha256": "1f9b982e2d8915a4a81defac507c941db7f6d3e9890d4e66e5e64e2d84f442a6"
+    },
+    {
+      "file": "sourcedata/zenodo-12796062/msSEI_exportTrials/trials_P14.mat",
+      "sha256": "2e41a99dd22eb8d91bf81aab5c73ee0d8a0eb5e9dc043dff6de58269b0019c70"
+    },
+    {
+      "file": "sourcedata/zenodo-12796062/msSEI_exportTrials/trials_P15.mat",
+      "sha256": "2387a91e839416bbf593868160bbe85beb51244ac6d4e0455faafa2a641c68fe"
+    },
+    {
+      "file": "sourcedata/zenodo-12796062/msSEI_exportTrials/trials_P16.mat",
+      "sha256": "6c8bf099445044ce48c8ffabfc14ebbf9e86ba133ce4ab19ec63ed388294252d"
+    },
+    {
+      "file": "sourcedata/zenodo-12796062/msSEI_exportTrials/trials_P17.mat",
+      "sha256": "59dcae6e568c0f856ce68fb34b50db133721137142802a97415c20c7020c033e"
+    },
+    {
+      "file": "sourcedata/zenodo-12796062/msSEI_exportTrials/trials_P18.mat",
+      "sha256": "b5298fb746ae92327cd3a5bc86ca9e6916187db1aafdd10d9ba2df50efc3642a"
+    },
+    {
+      "file": "sourcedata/zenodo-12796062/msSEI_exportTrials/trials_P19.mat",
+      "sha256": "6c230b6f61f3d4ff5d23cc78211dea5819e207601a554d082f9a6ca69b5db92d"
+    },
+    {
+      "file": "sourcedata/zenodo-12796062/msSEI_exportTrials/trials_P20.mat",
+      "sha256": "bfd15fa0a5003bc41e30c1f943ba69d99c82de6e50243486afa2d7d895ccaf72"
+    },
+    {
+      "file": "sourcedata/zenodo-12796062/msSEI_exportTrials/trials_P21.mat",
+      "sha256": "42cfc9e987bcae24ce820ea0b73dfc10d8a1ee1b27ee2ee7e01d4ece8ec21821"
+    },
+    {
+      "file": "sourcedata/zenodo-12796062/msSEI_exportTrials/trials_P22.mat",
+      "sha256": "92650d4b56d9b072c67a86987821d846661204e270425575cf1abf5c3582604f"
+    },
+    {
+      "file": "sourcedata/zenodo-12796062/msSEI_exportTrials/trials_P23.mat",
+      "sha256": "ee73ceb37f0122db745c540b57bb273af32263586867a75287b1945867983285"
+    },
+    {
+      "file": "sourcedata/zenodo-12796062/msSEI_exportTrials/trials_P24.mat",
+      "sha256": "cbac4cde49d3a9b40c4e42ba560e500ee2d627a2b651e215e57447dba8f14038"
+    },
+    {
+      "file": "sourcedata/zenodo-12796062/msSEI_exportTrials/trials_P25.mat",
+      "sha256": "5ec41df2b5d0b768001502466576be7bd82b6a0a9f2c92bdf000bfda8c607de8"
+    }
+  ]
+}

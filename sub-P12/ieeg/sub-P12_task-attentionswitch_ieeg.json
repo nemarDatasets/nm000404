@@ -1,0 +1,40 @@
+{
+  "TaskName": "attentionswitch",
+  "TaskDescription": "Switching between an external-attention visual search task (find the T among 35 Ls on a 6x6 grid, report upper/lower half) and an internal-attention autobiographical memory task (yes/no answer to a statement about own past experiences), gamepad responses, max 5 s per trial, no pause between trials; four sessions of several minutes (about 30 min in total). Epochs are centred on the switch between tasks (E-I: external-to-internal, I-E: internal-to-external).",
+  "InstitutionName": "Motol University Hospital",
+  "InstitutionAddress": "Prague, Czech Republic",
+  "Manufacturer": "n/a",
+  "ManufacturersModelName": "Quantum amplifiers, NeuroWorks software (as named in Hammer et al. 2024)",
+  "SamplingFrequency": 512.0,
+  "PowerLineFrequency": 50,
+  "SoftwareFilters": {
+    "DownSampling": {
+      "Description": "from 2048 Hz to 512 Hz"
+    },
+    "HighPass": {
+      "Cutoff": "0.1 Hz",
+      "Type": "Butterworth, 6th order, zero phase"
+    },
+    "Notch": {
+      "StopBand": "48-52 Hz and harmonics",
+      "Type": "Butterworth, 6th order, zero phase"
+    }
+  },
+  "HardwareFilters": {
+    "Bandwidth": {
+      "Range": "0.01-682 Hz (recording at 2048 Hz)"
+    }
+  },
+  "iEEGReference": "bipolar (each contact referenced to its nearest neighbour on the same shank); original recording reference in white matter",
+  "iEEGElectrodeGroups": "DIXI Medical SEEG electrodes (0.8 mm diameter, 2 mm contacts, 1.5 mm spacing)",
+  "iEEGPlacementScheme": "Clinically determined SEEG implantation; only channels assigned by the authors to the DMN or DAN (Yeo-7) are released; channels in seizure-onset/irritative zones or broken were removed by the authors",
+  "SEEGChannelCount": 61,
+  "ECOGChannelCount": 0,
+  "EEGChannelCount": 0,
+  "MiscChannelCount": 0,
+  "TriggerChannelCount": 0,
+  "RecordingType": "epoched",
+  "EpochLength": 8.001953125,
+  "RecordingDuration": 1008.24609375,
+  "SourceFile": "msSEI_exportTrials.zip: trials_P12.mat (variable D)"
+}

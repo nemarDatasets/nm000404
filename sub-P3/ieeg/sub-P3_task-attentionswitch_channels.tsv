@@ -1,0 +1,12 @@
+name	type	units	low_cutoff	high_cutoff	notch	sampling_frequency	network	status	status_description
+W7-W8	SEEG	µV	0.1	n/a	50	512.0	DAN	good	bipolar derivation (deeper contact minus its neighbour) as released
+X9-X10	SEEG	µV	0.1	n/a	50	512.0	DAN	good	bipolar derivation (deeper contact minus its neighbour) as released
+X10-X11	SEEG	µV	0.1	n/a	50	512.0	DAN	good	bipolar derivation (deeper contact minus its neighbour) as released
+X11-X12	SEEG	µV	0.1	n/a	50	512.0	DAN	good	bipolar derivation (deeper contact minus its neighbour) as released
+Y10-Y11	SEEG	µV	0.1	n/a	50	512.0	DAN	good	bipolar derivation (deeper contact minus its neighbour) as released
+Y11-Y12	SEEG	µV	0.1	n/a	50	512.0	DAN	good	bipolar derivation (deeper contact minus its neighbour) as released
+Y12-Y13	SEEG	µV	0.1	n/a	50	512.0	DAN	good	bipolar derivation (deeper contact minus its neighbour) as released
+Y13-Y14	SEEG	µV	0.1	n/a	50	512.0	DAN	good	bipolar derivation (deeper contact minus its neighbour) as released
+Z11-Z12	SEEG	µV	0.1	n/a	50	512.0	DAN	good	bipolar derivation (deeper contact minus its neighbour) as released
+Z12-Z13	SEEG	µV	0.1	n/a	50	512.0	DAN	good	bipolar derivation (deeper contact minus its neighbour) as released
+R4-R5	SEEG	µV	0.1	n/a	50	512.0	DAN	good	bipolar derivation (deeper contact minus its neighbour) as released
