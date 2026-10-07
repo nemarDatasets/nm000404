@@ -14,7 +14,7 @@ Source record: Zenodo https://doi.org/10.5281/zenodo.12796062 (v3, CC-BY-4.0): `
 
 25 patients with drug-resistant epilepsy (15 female; age 34 +/- 12 years) in presurgical SEEG monitoring at Motol
 University Hospital, Prague; implantation by clinical need only; approved by the hospital's ethics committee; written
-informed consent. Per-subject age and sex are not in the release (`n/a`).
+informed consent. Per-subject age and sex are not in the release; since 2026-10-08 `participants.tsv` gives them from the article's Supplementary Table 1.
 
 Subjects alternated between an external-attention task (visual search: find the T among 35 Ls on a 6x6 grid and report
 whether it is in the upper or lower half) and an internal-attention task (yes/no answer to a statement about their own
@@ -49,3 +49,15 @@ are available from the source record and GitHub.
 ## Licence
 
 CC-BY-4.0, as the source record. Please cite the paper and the Zenodo record.
+
+## Additional metadata and localisation (added 2026-10-08)
+
+Compiled after the upload from the article, its supplement and the source deposit (each statement names its source). Text and sidecar metadata only; no data file was changed.
+
+**Recording system.** Medical amplifiers (Quantum, NeuroWorks), sampled at 2048 Hz (bandwidth 0.01-682 Hz), later downsampled to 512 Hz (doi:10.1038/s42003-024-06732-2, Methods 'iEEG data recording and preprocessing'). Deposited trials: 4097 samples from -4.0 to 4.0 s (512 Hz), trials x channels per subject in D.trials (Voyager Job ieeg-b3enr-c-hammer-1007220748). The deposited data are bipolar referenced, high-pass filtered at 0.1 Hz and notch filtered at 50 Hz and harmonics; D.rejected marks rejected samples (deposit readme).
+
+**Reference scheme.** Recording reference and ground electrodes in white matter (subject-specific locations) (doi:10.1038/s42003-024-06732-2); the deposited channels are bipolar pairs of neighbouring contacts (e.g. 'A1-A2') (deposit readme; doi:10.1038/s42003-024-06732-2 Results).
+
+**Electrode types.** Intracerebral (SEEG) electrodes, DIXI Medical; cylindrical contacts 0.8 mm diameter, 2 mm height, 1.5 mm spacing (doi:10.1038/s42003-024-06732-2).
+
+**Localisation method.** Contacts localised on post-implantation CT coregistered to pre-implantation MRI, verified on post-implantation MRI, MRI normalised to MNI space with SPM12; each bipolar channel was given the MNI coordinate of the centre between its contacts and assigned to the DMN or DAN with the Yeo-7 atlas; only DMN/DAN channels are exported (doi:10.1038/s42003-024-06732-2, Methods 'iEEG channel assignment'; deposit readme). The deposit gives channels_MNI for every exported channel; the column `atlas_label_AAL3v1` of each `electrodes.tsv` adds an AAL3v1 atlas lookup of these coordinates (ieeg-atlas `coord_regions.py`, nearest labelled voxel; a derived label, not given by the authors).

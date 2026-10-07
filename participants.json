@@ -3,11 +3,17 @@
     "Description": "Subject tag of the release (P1-P25)"
   },
   "age": {
-    "Description": "Per-subject age not in the release (group: mean 34 +/- 12 years, Hammer et al. 2024)",
-    "Units": "year"
+    "Description": "Age",
+    "Units": "year",
+    "Source": "doi:10.1038/s42003-024-06732-2, Supplementary Information (42003_2024_6732_MOESM1_ESM.pdf), Supplementary Table 1 'Subject information'"
   },
   "sex": {
-    "Description": "Per-subject sex not in the release (group: 15 of 25 female)"
+    "Description": "M/F ('Gender')",
+    "Source": "doi:10.1038/s42003-024-06732-2, Supplementary Information (42003_2024_6732_MOESM1_ESM.pdf), Supplementary Table 1 'Subject information'",
+    "Levels": {
+      "M": "male",
+      "F": "female"
+    }
   },
   "group": {
     "Description": "Participant group",
@@ -20,5 +26,30 @@
   },
   "n_trials": {
     "Description": "Number of switch epochs"
+  },
+  "handedness": {
+    "Description": "R/L",
+    "Source": "doi:10.1038/s42003-024-06732-2, Supplementary Information (42003_2024_6732_MOESM1_ESM.pdf), Supplementary Table 1 'Subject information'",
+    "Levels": {
+      "R": "right",
+      "L": "left"
+    }
+  },
+  "diagnosis": {
+    "Description": "All subjects",
+    "Source": "doi:10.1038/s42003-024-06732-2, Methods 'Participants': 'patients with drug-resistant epilepsy ... presurgical evaluation at Motol University Hospital'"
+  },
+  "soz_or_focus": {
+    "Description": "Suspected seizure onset zone (verbatim)",
+    "Source": "doi:10.1038/s42003-024-06732-2, Supplementary Information (42003_2024_6732_MOESM1_ESM.pdf), Supplementary Table 1 'Subject information'"
+  },
+  "epilepsy_duration_years": {
+    "Description": "Epilepsy duration",
+    "Units": "years",
+    "Source": "doi:10.1038/s42003-024-06732-2, Supplementary Information (42003_2024_6732_MOESM1_ESM.pdf), Supplementary Table 1 'Subject information'"
+  },
+  "implant_type": {
+    "Description": "Electrode type",
+    "Source": "doi:10.1038/s42003-024-06732-2, Methods 'iEEG data recording and preprocessing' (intracerebral electrodes, DIXI Medical; 0.8 mm diameter, 2 mm contacts, 1.5 mm spacing)"
   }
 }

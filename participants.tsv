@@ -1,26 +1,26 @@
-participant_id	source_id	age	sex	group	n_channels_released	n_trials
-sub-P1	P1	n/a	n/a	epilepsy_patient	23	121
-sub-P2	P2	n/a	n/a	epilepsy_patient	49	115
-sub-P3	P3	n/a	n/a	epilepsy_patient	11	122
-sub-P4	P4	n/a	n/a	epilepsy_patient	36	91
-sub-P5	P5	n/a	n/a	epilepsy_patient	39	126
-sub-P6	P6	n/a	n/a	epilepsy_patient	60	132
-sub-P7	P7	n/a	n/a	epilepsy_patient	51	136
-sub-P8	P8	n/a	n/a	epilepsy_patient	45	120
-sub-P9	P9	n/a	n/a	epilepsy_patient	46	118
-sub-P10	P10	n/a	n/a	epilepsy_patient	44	127
-sub-P11	P11	n/a	n/a	epilepsy_patient	64	128
-sub-P12	P12	n/a	n/a	epilepsy_patient	61	126
-sub-P13	P13	n/a	n/a	epilepsy_patient	47	126
-sub-P14	P14	n/a	n/a	epilepsy_patient	48	128
-sub-P15	P15	n/a	n/a	epilepsy_patient	63	119
-sub-P16	P16	n/a	n/a	epilepsy_patient	30	128
-sub-P17	P17	n/a	n/a	epilepsy_patient	64	131
-sub-P18	P18	n/a	n/a	epilepsy_patient	17	120
-sub-P19	P19	n/a	n/a	epilepsy_patient	21	129
-sub-P20	P20	n/a	n/a	epilepsy_patient	17	128
-sub-P21	P21	n/a	n/a	epilepsy_patient	28	123
-sub-P22	P22	n/a	n/a	epilepsy_patient	26	124
-sub-P23	P23	n/a	n/a	epilepsy_patient	38	126
-sub-P24	P24	n/a	n/a	epilepsy_patient	48	126
-sub-P25	P25	n/a	n/a	epilepsy_patient	62	131
+participant_id	source_id	age	sex	group	n_channels_released	n_trials	handedness	diagnosis	soz_or_focus	epilepsy_duration_years	implant_type
+sub-P1	P1	31	M	epilepsy_patient	23	121	R	drug-resistant epilepsy	Left frontal lobe–premotor area	2	SEEG (DIXI Medical depth electrodes)
+sub-P2	P2	26	F	epilepsy_patient	49	115	R	drug-resistant epilepsy	Right frontal lobe, insula	13	SEEG (DIXI Medical depth electrodes)
+sub-P3	P3	38	F	epilepsy_patient	11	122	R	drug-resistant epilepsy	Right insula, operculum	9	SEEG (DIXI Medical depth electrodes)
+sub-P4	P4	41	F	epilepsy_patient	36	91	R	drug-resistant epilepsy	Right frontal lobe–prefrontal area	32	SEEG (DIXI Medical depth electrodes)
+sub-P5	P5	15	M	epilepsy_patient	39	126	R	drug-resistant epilepsy	Left frontal and temporal lobe	7	SEEG (DIXI Medical depth electrodes)
+sub-P6	P6	16	M	epilepsy_patient	60	132	L	drug-resistant epilepsy	Left insula	11	SEEG (DIXI Medical depth electrodes)
+sub-P7	P7	44	F	epilepsy_patient	51	136	R	drug-resistant epilepsy	Right parietal lobe	31	SEEG (DIXI Medical depth electrodes)
+sub-P8	P8	48	F	epilepsy_patient	45	120	R	drug-resistant epilepsy	Right temporal lobe	31	SEEG (DIXI Medical depth electrodes)
+sub-P9	P9	12	F	epilepsy_patient	46	118	R	drug-resistant epilepsy	Left frontal lobe–prefrontal area	9	SEEG (DIXI Medical depth electrodes)
+sub-P10	P10	15	F	epilepsy_patient	44	127	R	drug-resistant epilepsy	Left temporal lobe	2	SEEG (DIXI Medical depth electrodes)
+sub-P11	P11	43	M	epilepsy_patient	64	128	R	drug-resistant epilepsy	Right temporal, parietal, and occipital lobes	34	SEEG (DIXI Medical depth electrodes)
+sub-P12	P12	46	M	epilepsy_patient	61	126	L	drug-resistant epilepsy	Left frontal lobe	34	SEEG (DIXI Medical depth electrodes)
+sub-P13	P13	29	F	epilepsy_patient	47	126	R	drug-resistant epilepsy	Right frontal and temporal lobe	20	SEEG (DIXI Medical depth electrodes)
+sub-P14	P14	35	F	epilepsy_patient	48	128	L	drug-resistant epilepsy	Left temporal lobe	21	SEEG (DIXI Medical depth electrodes)
+sub-P15	P15	55	M	epilepsy_patient	63	119	R	drug-resistant epilepsy	Right frontal lobe	27	SEEG (DIXI Medical depth electrodes)
+sub-P16	P16	46	F	epilepsy_patient	30	128	R	drug-resistant epilepsy	Right frontal lobe–medial cortex	44	SEEG (DIXI Medical depth electrodes)
+sub-P17	P17	37	F	epilepsy_patient	64	131	L	drug-resistant epilepsy	Right temporal lobe	13	SEEG (DIXI Medical depth electrodes)
+sub-P18	P18	44	M	epilepsy_patient	17	120	R	drug-resistant epilepsy	Left frontal lobe–premotor area	36	SEEG (DIXI Medical depth electrodes)
+sub-P19	P19	36	M	epilepsy_patient	21	129	R	drug-resistant epilepsy	Right temporal lobe	12	SEEG (DIXI Medical depth electrodes)
+sub-P20	P20	38	F	epilepsy_patient	17	128	R	drug-resistant epilepsy	Right frontal lobe	20	SEEG (DIXI Medical depth electrodes)
+sub-P21	P21	32	M	epilepsy_patient	28	123	L	drug-resistant epilepsy	Right frontal lobe–orbitofrontal area	23	SEEG (DIXI Medical depth electrodes)
+sub-P22	P22	28	F	epilepsy_patient	26	124	R	drug-resistant epilepsy	Right frontal lobe	10	SEEG (DIXI Medical depth electrodes)
+sub-P23	P23	24	F	epilepsy_patient	38	126	L	drug-resistant epilepsy	Right temporal lobe	6	SEEG (DIXI Medical depth electrodes)
+sub-P24	P24	49	M	epilepsy_patient	48	126	R	drug-resistant epilepsy	Right temporal lobe	27	SEEG (DIXI Medical depth electrodes)
+sub-P25	P25	30	F	epilepsy_patient	62	131	L	drug-resistant epilepsy	Left temporal lobe	19	SEEG (DIXI Medical depth electrodes)
