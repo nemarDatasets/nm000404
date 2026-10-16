@@ -1,5 +1,5 @@
 {
-  "Name": "Internal-external attention switching SEEG epochs, DMN and DAN channels, 25 epilepsy patients (Hammer et al. 2024)",
+  "Name": "Hammer-2024-antagonistic-10.1038/s42003-024-06732-2",
   "BIDSVersion": "1.10.0",
   "DatasetType": "derivative",
   "License": "CC-BY-4.0",
@@ -43,5 +43,5 @@
     }
   ],
   "DatasetDOI": "10.82901/nemar.nm000404",
-  "Version": "1.0.0"
+  "Version": "1.0.1"
 }
