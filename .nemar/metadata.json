@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "pipeline_stage": "enriched",
-  "title": "Hammer-2024-antagonistic-10.1038/s42003-024-06732-2",
+  "title": "Internal-external attention switching SEEG epochs, DMN and DAN channels, 25 epilepsy patients (Hammer et al. 2024)",
   "description": "Stereo-EEG epochs from 25 patients with drug-resistant epilepsy undergoing presurgical monitoring, recorded while they alternated between an external-attention visual search task and an internal-attention autobiographical question task. Epochs span -4 to +4 s around each task switch (external-to-internal or internal-to-external). They are bipolar-referenced and restricted to channels in the default mode and dorsal attention networks. This is a BIDS repackaging of the authors' preprocessed derivative data.",
   "methods_description": "SEEG was recorded with DIXI Medical depth electrodes and Quantum/NeuroWorks amplifiers at 2048 Hz. The authors downsampled the data to 512 Hz, removed channels in pathological zones, and applied bipolar referencing, a 0.1 Hz high-pass filter and a 50 Hz notch filter with harmonics. Epochs were cut around task switches. Contacts were localised on post-implantation CT coregistered to MRI and normalised to MNI space. Channels were assigned to the DMN or DAN with the Yeo-7 atlas. The release does not state the physical unit of the signals; the µV label in the BIDS channels is an assumption by the repackagers, not a statement by the authors.",
   "license": "CC-BY-4.0",
@@ -115,5 +115,5 @@
     ".yml",
     ".zip"
   ],
-  "source_hash": "22745dce4dffcbfca5665dd3786b6a01747f2e28462029ceab78165e7304a02f"
+  "source_hash": "059f9103691bea4e94d9cd4d1373c24f900a06a80a1bd9d40caff936fa4dcc0a"
 }
