@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Internal-external attention switching SEEG epochs, DMN and DAN channels, 25 epilepsy patients (Hammer et al. 2024)",
-  "description": "Stereo-EEG epochs from 25 patients with drug-resistant epilepsy undergoing presurgical monitoring, recorded while they alternated between an external-attention visual search task and an internal-attention autobiographical question task. Epochs span -4 to +4 s around each task switch (external-to-internal or internal-to-external). They are bipolar-referenced and restricted to channels in the default mode and dorsal attention networks. This is a BIDS repackaging of the authors' preprocessed derivative data.",
-  "methods_description": "SEEG was recorded with DIXI Medical depth electrodes and Quantum/NeuroWorks amplifiers at 2048 Hz. The authors downsampled the data to 512 Hz, removed channels in pathological zones, and applied bipolar referencing, a 0.1 Hz high-pass filter and a 50 Hz notch filter with harmonics. Epochs were cut around task switches. Contacts were localised on post-implantation CT coregistered to MRI and normalised to MNI space. Channels were assigned to the DMN or DAN with the Yeo-7 atlas. The release does not state the physical unit of the signals; the µV label in the BIDS channels is an assumption by the repackagers, not a statement by the authors.",
+  "description": "Stereo-EEG epochs from 25 patients with drug-resistant epilepsy performing a task that alternated between external attention (visual search) and internal attention (questions about personal experiences). Epochs span -4 to +4 s around each task switch and are limited to bipolar channels assigned to the default mode network and dorsal attention network by the Yeo-7 atlas. The data are the authors' preprocessed epochs from the original study of antagonistic network dynamics mediated by low-frequency oscillations, repackaged in iEEG-BIDS format.",
+  "methods_description": "SEEG was recorded with DIXI Medical depth electrodes and Quantum/NeuroWorks amplifiers at 2048 Hz, with reference and ground in white matter. The authors downsampled the data to 512 Hz, removed channels in pathological tissue, and bipolar-referenced along each shank. They then applied a 0.1 Hz high-pass filter and a 50 Hz notch filter with harmonics, and cut epochs around task switches. Contacts were localised on post-implantation CT coregistered to MRI and normalised to MNI space with SPM12. The release does not state the physical unit of the data; channels are labelled µV as an assumption by the dataset curators, not a statement by the original authors.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -16,22 +16,22 @@
       "term": "stereo-EEG"
     },
     {
-      "term": "intracranial EEG"
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
     },
     {
-      "term": "attention switching"
+      "term": "Attention",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001288"
     },
     {
-      "term": "internal attention"
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     },
     {
-      "term": "external attention"
-    },
-    {
-      "term": "visual search"
-    },
-    {
-      "term": "autobiographical memory"
+      "term": "internal-external attention switching"
     },
     {
       "term": "default mode network"
@@ -40,12 +40,16 @@
       "term": "dorsal attention network"
     },
     {
-      "term": "Epilepsy",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
+      "term": "intracranial EEG"
     },
     {
       "term": "low-frequency oscillations"
+    },
+    {
+      "term": "Yeo-7 atlas"
+    },
+    {
+      "term": "task switching"
     }
   ],
   "related_identifiers": [
@@ -77,17 +81,16 @@
   ],
   "funding_references": [
     {
-      "funder_name": "Ministry of Education, Youth and Sports of the Czech Republic (MEYS)",
-      "award_number": "LX22NPO5107",
-      "award_title": "Financed by the European Union - Next Generation EU"
-    },
-    {
       "funder_name": "Czech Science Foundation",
       "award_number": "20-21339S"
     },
     {
       "funder_name": "Grant Agency of Charles University",
       "award_number": "272221"
+    },
+    {
+      "funder_name": "Ministry of Education, Youth and Sports (MEYS), financed by the European Union - Next Generation EU",
+      "award_number": "LX22NPO5107"
     },
     {
       "funder_name": "ERDF",
